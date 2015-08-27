@@ -36,7 +36,7 @@ An engine must exit with a zero exit code to be considered a success. Any nonzer
 
 An `issue` represents a single instance of a real or potential code problem, detected by a static analysis Engine.
 
-```
+```json
 {
   "type": "issue",
   "check_name": "Bug Risk/Unused Variable",
